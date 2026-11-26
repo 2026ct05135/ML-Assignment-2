@@ -55,7 +55,7 @@ After duplicate removal, the target distribution is:
 
 The target is imbalanced, so accuracy is not considered in isolation. Precision, recall, F1-score, AUC, and Matthews Correlation Coefficient (MCC) are also reported.
 
-![Income class distribution](graphs/income_class_distribution.png)
+![Income class distribution](./graphs/income_class_distribution.png)
 
 ## 3. Data Preprocessing
 
@@ -85,7 +85,7 @@ The preprocessing is implemented using Scikit-learn `Pipeline` and `ColumnTransf
 
 The notebook reports that the class proportions are preserved at approximately 76.06% (`<=50K`) and 23.94% (`>50K`) in the overall, training, and test datasets.
 
-![Train and test class distribution](graphs/train_test_class_distribution.png)
+![Train and test class distribution](./graphs/train_test_class_distribution.png)
 
 The notebook's final preprocessing verification reports zero missing values in both processed training and processed test features.
 
@@ -132,37 +132,37 @@ Each graph compares all five classifiers using one evaluation metric. The values
 
 #### Accuracy
 
-![Accuracy comparison](graphs/accuracy_comparison.png)
+![Accuracy comparison](./graphs/accuracy_comparison.png)
 
 Random Forest records the highest accuracy (0.8523).
 
 #### AUC
 
-![AUC comparison](graphs/auc_comparison.png)
+![AUC comparison](./graphs/auc_comparison.png)
 
 Logistic Regression records the highest AUC (0.9080), closely followed by Random Forest (0.9072).
 
 #### Precision
 
-![Precision comparison](graphs/precision_comparison.png)
+![Precision comparison](./graphs/precision_comparison.png)
 
 Random Forest records the highest precision (0.7232).
 
 #### Recall
 
-![Recall comparison](graphs/recall_comparison.png)
+![Recall comparison](./graphs/recall_comparison.png)
 
 Gaussian Naive Bayes records the highest recall (0.9336). Logistic Regression follows with 0.8519.
 
 #### F1-score
 
-![F1 comparison](graphs/f1_comparison.png)
+![F1 comparison](./graphs/f1_comparison.png)
 
 Logistic Regression records the highest F1-score (0.6801) for the positive `>50K` class.
 
 #### Matthews Correlation Coefficient (MCC)
 
-![MCC comparison](graphs/mcc_comparison.png)
+![MCC comparison](./graphs/mcc_comparison.png)
 
 Random Forest records the highest MCC (0.5766), closely followed by Logistic Regression (0.5744).
 
@@ -170,7 +170,7 @@ Random Forest records the highest MCC (0.5766), closely followed by Logistic Reg
 
 The ROC graph compares the true-positive rate against the false-positive rate across thresholds for the five classifiers. The diagonal line represents a random classifier.
 
-![ROC curve comparison](graphs/roc_curve_comparison.png)
+![ROC curve comparison](./graphs/roc_curve_comparison.png)
 
 The recorded AUC values are:
 - Logistic Regression: 0.9080
@@ -183,7 +183,7 @@ The recorded AUC values are:
 
 The confusion matrices below show the test-set classification counts for the five models. The class order used in the notebook is `<=50K` followed by `>50K`.
 
-![Confusion matrices](graphs/confusion_matrices.png)
+![Confusion matrices](./graphs/confusion_matrices.png)
 
 ## 9. Overall Model Observation and Conclusion
 
