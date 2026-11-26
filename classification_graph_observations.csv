@@ -1,0 +1,7 @@
+Graph / Metric,Observation
+Accuracy comparison,"Random Forest (Ensemble) has the highest Accuracy (0.852), while Naive Bayes (Gaussian) has the lowest (0.599). The chart compares all five models on the held-out test set."
+AUC comparison,"Logistic Regression has the highest AUC (0.908), while Decision Tree has the lowest (0.751). The chart compares all five models on the held-out test set."
+Precision comparison,"Random Forest (Ensemble) has the highest Precision (0.723), while Naive Bayes (Gaussian) has the lowest (0.367). The chart compares all five models on the held-out test set."
+Recall comparison,"Naive Bayes (Gaussian) has the highest Recall (0.934), while kNN has the lowest (0.604). The chart compares all five models on the held-out test set."
+F1 comparison,"Logistic Regression has the highest F1 (0.680), while Naive Bayes (Gaussian) has the lowest (0.527). The chart compares all five models on the held-out test set."
+MCC comparison,"Random Forest (Ensemble) has the highest MCC (0.577), while Naive Bayes (Gaussian) has the lowest (0.374). The chart compares all five models on the held-out test set."

@@ -1,0 +1,9 @@
+# Dependencies for the Adult Census Income Classification Assignment
+
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+ucimlrepo
+ipython
