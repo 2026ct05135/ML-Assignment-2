@@ -207,8 +207,13 @@ ML-Assignment-2/
 ├── README.md
 ├── requirements.txt
 ├── test_data.csv
+├── classification_graph_observations.csv
+├── classification_model_final_report.csv
+├── classification_model_observations.csv
+├── classification_model_results.csv
 │
-├── ML_Assignment_2.ipynb
+└── model/
+    ├── ML_Assignment_2.ipynb
 │
 └── graphs/
     ├── income_class_distribution.png
